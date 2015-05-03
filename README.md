@@ -24,7 +24,7 @@ memory_pool::borrow( |vec: &mut Vec< u32 >| {
 You can also manually acquire and release memory:
 
 ```rust
-let buffer: String = memory_pool::acquire();
+let mut buffer: String = memory_pool::acquire();
 buffer.push_str( "I like cupcakes!" );
 memory_pool::release( buffer );
 ```
