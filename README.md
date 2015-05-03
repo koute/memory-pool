@@ -35,7 +35,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-memory-pool = "0.0.1"
+memory-pool = "0.1.0"
 ```
 
 Then add this to your crate root:
