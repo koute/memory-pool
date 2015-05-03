@@ -1,0 +1,10 @@
+---
+sudo: false
+language: rust
+rust:
+  - nightly
+  - beta
+
+script:
+  - cargo test
+  - cargo doc --no-deps

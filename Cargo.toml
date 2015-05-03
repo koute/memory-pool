@@ -1,0 +1,17 @@
+[package]
+
+name        = "memory-pool"
+version     = "0.1.0"
+license     = "MIT"
+authors     = [ "Jan Bujak <j@exia.io>" ]
+description = "A global, thread-safe memory pool."
+homepage    = "https://github.com/koute/memory-pool"
+repository  = "https://github.com/koute/memory-pool"
+readme      = "README.md"
+exclude     = [
+    ".gitignore",
+    ".travis.yml"
+]
+
+[lib]
+name = "memory_pool"
