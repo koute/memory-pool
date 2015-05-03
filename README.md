@@ -1,5 +1,9 @@
 # A global, thread-safe memory pool
 
+[![Build Status](https://travis-ci.org/koute/memory-pool.svg)](https://travis-ci.org/koute/memory-pool)
+
+[API documentation](https://koute.github.io/memory-pool/memory_pool/index.html)
+
 A Rust library providing a global, thread-safe memory pool,
 ideal for when you need a temporary scratch buffer but you
 don't want to be constantly allocating memory.
